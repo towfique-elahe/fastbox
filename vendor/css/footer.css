@@ -1,0 +1,65 @@
+/* coverage section start */
+#coverage{
+    background-color: var(--second-color);
+    color: var(--third-color);
+}
+#coverage p{
+    font-size: 1.5rem;
+}
+#coverage .info{
+    margin: auto;
+}
+/* map */
+a.map:hover path{
+    fill: var(--first-color);
+    position: absolute;
+    transform: scale(1.01);
+    box-shadow: white 5px 5px 5px;
+}
+a.map:hover .map-name{
+    fill: var(--third-color);
+}
+/* responsiveness */
+@media only screen and (max-width: 810px){
+    #coverage svg{
+        height: 100%;
+    }
+}
+/* coverage section ends */
+
+
+/* fastbox footer start */
+#footer{
+    background-color: var(--second-color);
+    color: var(--third-color);
+    font-size: 1.5rem;
+    padding: 5rem 0;
+}
+#footer #logo{
+    width: 100%;
+}
+#footer .heading{
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    margin-bottom: 1.5rem;
+}
+#footer ion-icon{
+    font-size: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+#footer a{
+    text-decoration: none;
+    color: var(--third-color);
+}
+#footer a:hover{
+    color: var(--first-color);
+}
+#footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: .5rem;
+}
+/* fastbox footer ends */

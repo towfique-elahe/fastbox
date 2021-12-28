@@ -1,0 +1,41 @@
+.division{
+    padding: 5rem;
+}
+
+input{
+    outline: none;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    border: solid transparent .2rem;
+    box-shadow: rgba(0, 0, 0, 0.322) 0rem 0rem .3rem;
+    border-radius: .5rem;
+}
+input:focus{
+    box-shadow: var(--first-color) 0rem 0rem .5rem;
+}
+
+/* table */
+table{
+    width: 100%;
+    font-size: 1.3rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.322) 0rem 0rem 1rem;
+}
+table tr{
+    border-bottom: solid .1rem rgba(128, 128, 128, 0.658);
+    border-radius: 20px;
+}
+table td, table th{
+    padding: .1rem 1rem;
+}
+table tbody tr:hover{
+    background-color: var(--first-color);
+    color: var(--third-color);
+}
+
+#dhaka{
+    padding-top: 15rem;
+}

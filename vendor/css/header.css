@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap");
+
+*{
+  font-family: roboto;
+  text-decoration: none;
+  transition: ease .2s;
+}
+*::selection{
+  color: var(--third-color);
+  background-color: var(--first-color);
+}
+
+/* for using rem */
+html {
+  font-size: 12px;
+}
+@media only screen and (max-width: 810px){
+  html{
+    font-size: 10px;
+  }
+}
+
+/* color variables */
+:root{
+  --first-color: #E62E3C;
+  --second-color: #2A2A2A;
+  --third-color: #ffffff;
+}
+
+/* global fastbox style */
+.fastbox{
+  color: var(--first-color);
+}
+
+/* global button style */
+#button{
+  background-color: var(--first-color);
+  color: var(--third-color);
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  padding: .5rem 2rem;
+  border-radius: .4rem;
+}
+#button:hover{
+  text-decoration: none;
+  background-color: #cf0a1a;
+}
+
+
+/* fixed function */
+header{
+  position: relative;
+}
+.fixed-header{
+  position: fixed;
+  z-index: 999;
+}
+@media only screen and (max-width: 414px){
+  .fixed-header{
+    left: 0;
+    bottom: 2rem;
+  }
+}
+
+/* top bar design */
+#top-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#top-bar ion-icon{
+  font-size: 1.5rem;
+  color: var(--first-color);
+  padding: .5rem;
+}
+@media only screen and (max-width: 414px){
+  #top-bar{
+    display: none;
+  }
+}
+
+/* main header design */
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--third-color);
+  padding: 0 2rem;
+  border-radius: .4rem;
+  box-shadow: rgba(0, 0, 0, 0.384) 0 5px 20px;
+}
+#header #logo{
+  width: 5rem;
+}
+#header #nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+#header #nav #main-menu ul{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+#header #nav #main-menu ul a{
+  color: var(--second-color);
+  font-size: 1.5rem;
+  border-radius: .5rem;
+}
+#header #nav #main-menu ul a:hover{
+  text-decoration: none;
+  color: var(--first-color);
+  border-bottom: solid var(--first-color) .5rem;
+}
+#header #nav a#user{
+  color: var(--first-color);
+  font-size: 2rem;
+}
+@media only screen and (max-width: 414px){
+  #header{
+    height: 4rem;
+  }
+  #header #nav  #main-menu{
+    display: none;
+  }
+}
+

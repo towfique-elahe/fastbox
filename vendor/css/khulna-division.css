@@ -1,0 +1,29 @@
+#khulna{
+    background-color: var(--second-color);
+    color: var(--third-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#khulna .img{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#khulna img{
+    width: 25rem;
+}
+#khulna table{
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: rgba(245, 245, 245, 0.205);
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+#khulna td, #khulna th{
+    padding: 1rem;
+}
+#khulna tbody tr:hover{
+    background-color: var(--second-color);
+}

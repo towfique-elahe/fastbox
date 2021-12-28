@@ -1,0 +1,78 @@
+/* calculator section start */
+#calculator{
+    background-color: var(--second-color);
+    color: var(--third-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#calculator p{
+    font-size: 1.5rem;
+}
+#calculator .row{
+    gap: 5rem;
+    justify-content: center;
+}
+#calculator input, #calculator select{
+    width: 22rem;
+    border: solid var(--second-color) .2rem;
+    height: 4rem;
+    padding: .4rem 1rem;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+    background-color: var(--third-color);
+    color: var(--second-color);
+    outline: none;
+}
+#calculator input:focus, #calculator select:focus{
+    border: solid var(--first-color) .2rem;
+    box-shadow: var(--first-color) 0 0 1rem .1rem;
+}
+
+/* input increment button remove */
+/* Chrome, Safari, Edge, Opera */
+#calculator input::-webkit-outer-spin-button,
+#calculator input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+#calculator input[type=number] {
+  -moz-appearance: textfield;
+}
+#calculator a.fastbox{
+    font-size: 1.5rem;
+}
+#calculator a.fastbox:hover{
+    text-decoration: none;
+    color: var(--first-color);
+}
+#calculator #button{
+    border: none;
+}
+/* calculator section ends */
+
+
+/* coverage section start */
+#coverage{
+    background-color: var(--second-color);
+    color: var(--third-color);
+}
+#coverage p{
+    font-size: 1.5rem;
+}
+#coverage .info{
+    margin: auto;
+}
+/* map */
+a.map:hover path{
+    fill: var(--first-color);
+    position: absolute;
+    transform: scale(1.01);
+    box-shadow: white 5px 5px 5px;
+}
+a.map:hover .map-name{
+    fill: var(--third-color);
+}
+/* coverage section ends */

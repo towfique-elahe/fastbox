@@ -1,0 +1,27 @@
+#policy{
+    padding: 10rem 0;
+    color: var(--second-color);
+}
+#policy h1{
+    width: 100%;
+    text-align: center;
+}
+#policy .heading{
+    font-size: 3rem;
+    margin: 3rem 0 1rem 0;
+}
+#policy .para, #policy ul{
+    font-size: 1.5rem;
+    text-align: justify;
+    list-style: none;
+    position: relative;
+}
+#policy ul li::before{
+    content: "\2022";
+    color: var(--first-color);
+    font-size: 3rem;
+    display: inline-block; 
+    position: absolute;
+    left: 5px;
+    margin-top: -15px;
+}

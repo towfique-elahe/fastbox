@@ -1,0 +1,52 @@
+/* hero section start */
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--second-color);
+    color: var(--third-color);
+}
+#hero .row{
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero img{
+    width: 100%;
+}
+#hero .form{
+    padding-left: 7rem;
+}
+#hero p{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+#hero a{
+    text-decoration: none;
+    color: var(--first-color);
+}
+#hero input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 90%;
+    margin-left: .5rem;
+}
+#hero .input{
+    width: 30rem;
+    background-color: var(--third-color);
+    padding: .5rem;
+    color: var(--second-color);
+    font-size: 1.5rem;
+    border-radius: .4rem;
+    margin-bottom: 3rem;
+}
+#hero #button{
+    width: 30rem;
+    border: none;
+    cursor: pointer;
+}
+#hero ion-icon{
+    margin-bottom: -.2rem;
+}
+/* hero section ends */

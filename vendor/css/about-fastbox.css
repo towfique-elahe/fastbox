@@ -1,0 +1,23 @@
+#hero{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--second-color);
+    color: var(--third-color);
+}
+#hero .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+#hero a{
+    display: inline-block;
+    margin: 0 auto;
+}
+#hero p{
+    font-size: 2rem;
+}

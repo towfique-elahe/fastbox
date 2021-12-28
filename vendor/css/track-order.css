@@ -1,0 +1,45 @@
+#track{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--second-color);
+    color: var(--third-color);
+}
+#track .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#track .row{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+#track img{
+    width: 100%;
+}
+#track .form{
+    padding-left: 10rem;
+}
+#track form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+#track input{
+    outline: none;
+    height: 3rem;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    color: var(--second-color);
+    border: solid .2rem var(--second-color);
+    border-radius: .5rem;
+}
+#track input:focus{
+    border: solid .2rem var(--first-color);
+    box-shadow: var(--first-color) 0 0 1rem .1rem;
+}
+#track form button{
+    border: none;
+}

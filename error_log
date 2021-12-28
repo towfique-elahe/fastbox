@@ -1,0 +1,8 @@
+[06-Dec-2021 00:20:07 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/autoomot/public_html/fastbox/dashboard.php on line 2
+[06-Dec-2021 00:20:24 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/autoomot/public_html/fastbox/order.php on line 2
+[06-Dec-2021 00:25:47 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/autoomot/public_html/fastbox/track-order.php on line 2
+[06-Dec-2021 00:26:32 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'autoomot_fastbox '@'localhost' (using password: YES) in /home3/autoomot/public_html/fastbox/track-order.php on line 2
+[06-Dec-2021 00:28:09 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/autoomot/public_html/fastbox/login.php on line 2
+[06-Dec-2021 00:28:40 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'autoomot_fastbox '@'localhost' (using password: YES) in /home3/autoomot/public_html/fastbox/login.php on line 2
+[06-Dec-2021 00:35:44 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/autoomot/public_html/fastbox/register.php on line 2
+[06-Dec-2021 00:38:53 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/autoomot/public_html/fastbox/dashboard.php on line 2
