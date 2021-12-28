@@ -11,6 +11,15 @@ Project Info:
 
 ©️towfique_elahe
 
+Technoloogy used in this project:
+  - HTML5
+  - CSS3
+  - SASS
+  - Bootstrap4
+  - JavaScript
+  - SQL
+  - PHP
+
 Links:
   - Linkedin - https://www.linkedin.com/in/towfiqueelahe/
   - Freecodecamp  - https://www.freecodecamp.org/towfiqueelahe
