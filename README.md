@@ -5,7 +5,7 @@ This project is based on Logistic Partner.
 Project Info:
   - Project Name - FastBox
   - Project Type - Website
-  - Project Website - https://fastbox.elahe.org/
+  - Project Website - https://fastbox.elahe.org
   - Company - Kreetive
   - Developed by - Towfique Elahe (Co-Founder of Kreetive)
 
